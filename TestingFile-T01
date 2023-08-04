@@ -1,0 +1,41 @@
+git arch:
+		Git directory
+		git staging
+		git repository
+		
+	 
+	 
+	 git config --global user.name "Dhananjay" 
+	 
+	 git config --global user.email "Dhananjay"
+	 
+	 git config --list
+	 
+	 git status -uall (To know all files in git folder)
+	 
+	 git status
+	 
+	 touch filename
+	 
+	 git add Testing.txt
+	 
+	 git commit -m "first commit"
+	 
+	 git log
+	 
+	 git show 54e9d396865bb5ee28af3175d3a7022bd6836b15
+	 
+	 git reset head filename  (from staging to directory) 
+	 
+	 git reset --soft cid (cid means we need to give commit id/54e9d396865bb5ee28af3175d3a7022bd6836b15) from repository to staging
+	 
+	 git reset --mixed cid (cid means we need to give commit id/54e9d396865bb5ee28af3175d3a7022bd6836b15) from repository to directory
+			or 
+	 git reset HEAD~1
+	 
+	 
+	 Git-HUB VersionControlTool
+	 
+	 git clone https(we can finhttps - d in github repository)
+	 
+	 git push
